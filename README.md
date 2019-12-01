@@ -8,11 +8,15 @@
 | 5，样式类命名  小写加-  header-left  
 
 | 顶部文档注释（推荐使用）  
-| /*  
-|  * @description: 中文说明  
-|  * @author: name  
-|  * @update: name(xxxx-xx-xx xx:xx)  
-|  */  
+```
+
+ /*  
+  * @description: 中文说明  
+  * @author: name  
+  * @update: name(xxxx-xx-xx xx:xx)  
+  */
+
+```
 
 ### 开发调试
 
