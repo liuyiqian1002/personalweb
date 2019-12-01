@@ -1,0 +1,121 @@
+.pc{
+    height: 100%;
+}
+.login{
+    background-image: linear-gradient(left, #6081be 50%,#6b94cf 80%, #90b8e2 100%);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .login-logo {
+        margin-top: 114px;
+        margin-bottom: 77px;
+        width: 143px
+    }
+    .login-content{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 118px;
+        box-sizing: border-box;
+        .ant-form-item{
+            margin-bottom: 0
+        }
+        .login-content-list{
+            background: rgba(242,245,247,0.79);
+            height: 450px;
+            width: 500px;
+            .login-title{
+                font-size: 26px;
+                color: #333;
+                padding: 28px 0;
+            }
+            .login-input{
+                height: 50px;
+                line-height: 50px;
+                width: 80%;
+                margin-bottom: 32px;
+                .ant-input{
+                    padding-left: 50px
+                }
+            }
+            .login-remeber{
+                height: 26px !important;
+                line-height: 26px !important
+            }
+            .ant-form-explain{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                bottom: 0;
+            }
+            .login-input input{
+                border-radius: 0;
+                outline: none;
+            }
+            .Verification_logo{
+                margin-right: -11px;
+                
+            }
+            
+            .login-remeber input{
+                background: #F2F5F7;
+                border:none;
+                display: none;
+            }
+            .login-remeber-logo{
+                margin-left: -10px;
+                margin-right: 20px;
+                float: left;
+                margin-top: 4px
+            }
+            .login-remeber-span{
+                font-size: 18px;
+                color:#666;
+            }
+            .login-button{
+                background: #999999;
+                box-shadow: 0 2px 4px 0 rgba(216,216,216,0.50);
+                width: 80%;
+                color: #fff;
+                border-radius: 0; 
+                height: 60px;
+                line-height: 60px;
+                font-size: 22px;
+            }
+            .login-error-word{
+                font-size: 16px;
+                color: #FF4D55;
+            }
+            .login-button-allow{
+                background-image: linear-gradient(-50deg, #FF4D55 0%, #FF7D83 100%) !important;
+            }
+            
+        }
+    }
+    .login-copy{
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: #fff;
+    }
+
+}
+.ant-input-affix-wrapper .ant-input:not(:first-child){
+    padding-left: 50px;
+}
+//手机hack
+.mobile{
+    .login-logo {
+        margin-top: 1.14rem;
+        margin-bottom: 0.77rem;
+        height: 0.9rem;
+        width: 3.43rem;
+    }
+    .login-content{
+        margin-bottom: 1.18rem;
+    }
+    .login-copy{
+        padding-bottom: 1.5rem;
+        font-size: 0.16rem;
+        color: #fff;
+    }
+}

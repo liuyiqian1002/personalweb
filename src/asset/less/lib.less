@@ -1,0 +1,29 @@
+@primary-color: #FF4D55;
+@primary-color-light: #FF7D83;
+@border-color: #E0E0E0;
+
+@disabled-color: #CECDCE;
+@disabled-bg: #aaa;
+@success-color: #1DE9B6;
+@success-color-to: #1DC4E9;
+
+@box-shadow-color:#D8D8D8;
+@text-click-color:#007AFF;
+
+// .flex (@orient:horizontal, @align:center, @pack:center) {
+//   display: -webkit-box;
+//   -webkit-box-pack: @pack;
+//   -webkit-box-align: @align;
+//   -webkit-box-orient: @orient;
+// }
+.flex(@orient: row,@alignItems: center,@justifyContent: center) {
+  display: flex;
+  flex-direction: @orient;
+  align-items: @alignItems;
+  justify-content: @justifyContent;
+}
+
+.fontSize(@fontSize:.3rem, @color: #131313){
+	font-size: @fontSize;
+	color:@color;
+}
