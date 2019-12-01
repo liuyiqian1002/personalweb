@@ -1,17 +1,18 @@
-### 个人网站 - web
-| 命名规范
-| 1，文件夹/文件名统一小写
-| 2，jsx/js文件名统一  帕斯卡命名 AaSs
-| 3，组件名称  帕斯卡命名 SsAa
-| 4，函数/变量命名 驼峰 aaSs
-| 5，样式类命名  小写加-  header-left
+### 个人网站 - web  
 
-| 顶部文档注释（推荐使用）
-| /*
-|  * @description: 中文说明
-|  * @author: name
-|  * @update: name(xxxx-xx-xx xx:xx)
-|  */
+| 命名规范  
+| 1，文件夹/文件名统一小写  
+| 2，jsx/js文件名统一  帕斯卡命名 AaSs  
+| 3，组件名称  帕斯卡命名 SsAa  
+| 4，函数/变量命名 驼峰 aaSs  
+| 5，样式类命名  小写加-  header-left  
+
+| 顶部文档注释（推荐使用）  
+| /*  
+|  * @description: 中文说明  
+|  * @author: name  
+|  * @update: name(xxxx-xx-xx xx:xx)  
+|  */  
 
 ### 开发调试
 
