@@ -13,7 +13,7 @@
  /*  
   * @description: 中文说明  
   * @author: name  
-  * @update: name(xxxx-xx-xx xx:xx)  
+  * @update: time(xxxx-xx-xx xx:xx)  
   */
 
 ```
