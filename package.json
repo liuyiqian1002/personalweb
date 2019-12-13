@@ -103,6 +103,7 @@
         "classnames": "^2.2.5",
         "copy-to-clipboard": "^3.0.8",
         "echarts": "^4.1.0",
+        "egg": "^2.25.0",
         "es6-promise-polyfill": "^1.2.0",
         "moment": "^2.22.2",
         "number-precision": "^1.2.0",
