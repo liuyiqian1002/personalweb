@@ -1,0 +1,9 @@
+2019-12-11 04:30:00,007 INFO 43288 [Timer] D:\personalweb\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86399994ms at 2019-12-12 04:30:00.001
+2019-12-11 04:30:00,008 INFO 46452 [Job#157600980000414493406943348006] D:\personalweb\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2019-12-11 04:30:00,012 INFO 46452 [Job#157600980000414493406943348006] D:\personalweb\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 4ms
+2019-12-12 00:00:00,101 INFO 43288 [Timer] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399919ms at 2019-12-13 00:00:00.019
+2019-12-12 00:00:00,207 INFO 46452 [Job#157608000004815195407405432007] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2019-12-12 00:00:00,299 INFO 46452 [Job#157608000004815195407405432007] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 75ms
+2019-12-12 00:00:01,014 INFO 43288 [Timer] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399990ms at 2019-12-13 00:00:01.004
+2019-12-12 00:00:01,018 INFO 46452 [Job#157608000100915195416999130997] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-12-12 00:00:01,050 INFO 46452 [Job#157608000100915195416999130997] D:\personalweb\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 32ms

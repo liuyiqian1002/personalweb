@@ -1,0 +1,45 @@
+2019-12-05 14:50:34,705 ERROR 46224 [-/::1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\personalweb\server\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\personalweb\server\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\personalweb\server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\personalweb\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 46224
+hostname: DESKTOP-IPDUMFV
+
+2019-12-05 14:53:08,130 ERROR 38040 [-/::1/-/16ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\personalweb\server\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\personalweb\server\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\personalweb\server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\personalweb\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 38040
+hostname: DESKTOP-IPDUMFV
+
+2019-12-05 14:56:34,317 ERROR 42356 [-/::1/-/12ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\personalweb\server\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\personalweb\server\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\personalweb\server\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\personalweb\server\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\personalweb\server\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\personalweb\server\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\personalweb\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 42356
+hostname: DESKTOP-IPDUMFV
+

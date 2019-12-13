@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for personal web",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev" : "egg-bin dev"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "vince",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.25.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0"
+  }
+}

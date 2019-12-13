@@ -1,0 +1,264 @@
+{
+  "keys": "D:\\personalweb\\server\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\personalweb\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\personalweb\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\personalweb\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\personalweb\\server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\personalweb\\server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\personalweb\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\personalweb\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\personalweb\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\personalweb\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\personalweb\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\personalweb\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\personalweb\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\personalweb\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\personalweb\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\personalweb\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\personalweb\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\personalweb\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\personalweb\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\personalweb\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\personalweb\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\personalweb\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\personalweb\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\personalweb\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\personalweb\\server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\personalweb\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\personalweb\\server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\personalweb\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\personalweb\\server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\personalweb\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\personalweb\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\personalweb\\server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\personalweb\\server\\node_modules\\egg\\config\\config.default.js"
+}
