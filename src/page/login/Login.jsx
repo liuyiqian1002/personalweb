@@ -25,7 +25,7 @@ class Login extends Component {
   componentDidMount() {
     document.title = 'Vince personal sweb';
     const { dispatch } = this.props;
-    dispatch({ type: 'INCREASE'})
+    dispatch({ type: 'INCREASE' });
   }
 
   // 登录中
@@ -43,6 +43,7 @@ class Login extends Component {
     });
     console.log(res);
   };
+
   render() {
     return (
       <div className={`app ${config.isPC ? 'pc' : 'mobile'}`}>

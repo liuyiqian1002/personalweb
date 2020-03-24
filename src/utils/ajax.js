@@ -1,12 +1,11 @@
 import axios from 'axios';
 import { Message, message } from 'antd';
-import { commonConstants } from '../store/reducers/commons.js';
 import store from 'store';
+import { commonConstants } from '../store/reducers/commons.js';
 import configs from './config';
 // import { encrypt, decrypt } from './aesEcb';
 // 请求实列
 let http = null;
-
 // 加载数
 let loadingNum = 0;
 
@@ -28,7 +27,11 @@ const install = (baseURL) => {
 install();
 
 function cancelLoading() {
-  loadingNum === 0 && store.dispatch({ type: commonConstants.loading, payload: false });
+  loadingNum === 0 &&
+    store.dispatch({
+      type: commonConstants.loading,
+      payload: false,
+    });
 }
 
 // 添加请求拦截器
@@ -39,20 +42,24 @@ http.interceptors.request.use(
     // config.headers['Content-Type'] = 'application/x-www-form-urlencoded';
     if (loadingNum === 0) {
       console.log(config.noLoading, loadingNum, commonConstants.loading);
-      !config.noLoading && store.dispatch({ type: commonConstants.loading, payload: true });
+      !config.noLoading &&
+        store.dispatch({
+          type: commonConstants.loading,
+          payload: true,
+        });
     }
-    if (!config.noLoading)loadingNum++;
+    if (!config.noLoading) loadingNum++;
 
     config.headers.token = '546yt454654';
     config.headers.appkey = 'mayi';
-    let hallId = '';
+    let uid = '';
     try {
-      hallId = JSON.parse(window.localStorage.getItem('x-hall-ID'));
+      uid = JSON.parse(window.localStorage.getItem('x-hall-ID'));
     } catch (error) {
       console.error(error);
     }
 
-    config.headers['x-hall-ID'] = hallId;
+    config.headers['x-x-x'] = uid;
     if (config.headers['Content-Type']) {
       config.headers['Content-Type'] = config.headers['Content-Type'];
     } else {
@@ -81,20 +88,6 @@ http.interceptors.response.use(
     if (response && response.data.code === 200) {
       // return response.data;
     } else {
-      if (response.config.responseType === 'blob') {
-        return response.data;
-      }
-      if (response.data.message === 'trade_order_00128') {
-        Message.error(getCodeMessage(response.data.message) + response.data.detailMessage);
-      } else if (response.data.message === 'manage_hall_0001') {
-        message.destroy();
-        message.warning('会话已超时，请重新登录', 2, () => {
-          window.location = '#/login';
-        });
-      } else {
-        Message.destroy();
-        Message.error(getCodeMessage(response.data.message));
-      }
       // throw response.data.message;
     }
 
@@ -115,22 +108,4 @@ http.interceptors.response.use(
     return Promise.reject(error);
   }
 );
-
-// let errorMessage;
-// // 获取API错误码
-// (async () => {
-//   const result = await http.get('/uc/tools/select/exception/message/zh', { noLoading: true });
-//   errorMessage = result;
-//   window.localStorage.setItem('errorMessage', JSON.stringify(errorMessage.data));
-// })();
-
-// // 返回错误码对应提示
-// let getCodeMessage = function (code) {
-//   if (errorMessage.data[code]) {
-//     return errorMessage.data[code];
-//   } else {
-//     return '请稍后重试';
-//   }
-// };
-
 export { http, install };
