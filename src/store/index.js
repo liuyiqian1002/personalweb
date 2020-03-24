@@ -1,15 +1,16 @@
-'use strict';
+"use strict";
 
-import { createStore, applyMiddleware, compose } from 'redux';
-import { createLogger } from 'redux-logger';
-import RootReducer from './reducers/index';
-import requestMiddleware from '../middleware/reuqest';
-import createSagaMiddleware from 'redux-saga';
-import rootSaga from './sagas'
-const sagaMiddleware = createSagaMiddleware()
+import { createStore, applyMiddleware, compose } from "redux";
+import { createLogger } from "redux-logger";
+import createSagaMiddleware from "redux-saga";
+import RootReducer from "./reducers/index";
+import requestMiddleware from "../middleware/reuqest";
+
+import rootSaga from "./sagas";
+const sagaMiddleware = createSagaMiddleware();
 
 const logger = createLogger();
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== "production") {
   // middlewares.push(logger);
 }
 
@@ -21,6 +22,6 @@ const store = createStore(
     window.devToolsExtension ? window.devToolsExtension() : (f) => f
   )
 );
-sagaMiddleware.run(rootSaga)
+sagaMiddleware.run(rootSaga);
 
 export default store;

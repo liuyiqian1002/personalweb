@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import ReactDOM from 'react-dom';
-import RouteConfig from './router/router';
-import 'less/reset.less';
-import 'less/base.less';
-import config from 'utils/config';
-import { LocaleProvider } from 'antd';
-import zh_CN from 'antd/lib/locale-provider/zh_CN';
-import store from './store';
+import React from "react";
+import { Provider } from "react-redux";
+import ReactDOM from "react-dom";
+import "less/reset.less";
+import "less/base.less";
+import config from "utils/config";
+import { LocaleProvider } from "antd";
+import zh_CN from "antd/lib/locale-provider/zh_CN";
+import RouteConfig from "./router/router";
+import store from "./store";
 
 if (!config.isPC) {
-  import('utils/setRem.js');
+  import("utils/setRem.js");
 }
 
 ReactDOM.render(
@@ -20,5 +20,5 @@ ReactDOM.render(
     </Provider>
   </LocaleProvider>,
 
-  document.getElementById('app')
+  document.getElementById("app")
 );

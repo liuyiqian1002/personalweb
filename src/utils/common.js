@@ -1,13 +1,13 @@
-import API from 'api/api';
-import { getMomentByTime } from './timeTypeFormat';
-import store from '../store';
+import API from "api/api";
+import { getMomentByTime } from "./timeTypeFormat";
+import store from "../store";
 
 export const Util = {
   /**
    *保存本地数据
    */
   setItem(key, value) {
-    value = typeof value == 'string' ? value : JSON.stringify(value);
+    value = typeof value == "string" ? value : JSON.stringify(value);
     localStorage.setItem(key, value);
   },
   /**
@@ -18,7 +18,7 @@ export const Util = {
     try {
       return JSON.parseJSON(value);
     } catch (e) {
-      return value || '';
+      return value || "";
     }
   },
   /**
@@ -37,8 +37,8 @@ export const Util = {
    * 判断基本类型是否空
    */
   isEmpty(str) {
-    str += '';
-    if (str.length === 0 || str == 'undefined' || str == 'null') {
+    str += "";
+    if (str.length === 0 || str == "undefined" || str == "null") {
       return true;
     }
     return false;
@@ -104,15 +104,15 @@ export const Util = {
     return false;
   },
   trim: function trim(str) {
-    return str.replace(/^\s+|\s+$/g, '');
+    return str.replace(/^\s+|\s+$/g, "");
   },
 
   ltrim: function ltrim(str) {
-    return str.replace(/^\s+/, '');
+    return str.replace(/^\s+/, "");
   },
 
   rtrim: function rtrim(str) {
-    return str.replace(/\s+$/, '');
+    return str.replace(/\s+$/, "");
   },
 };
 
@@ -121,7 +121,7 @@ export const Util = {
  */
 export function parseQueryString(str) {
   const objURL = {};
-  str.replace(new RegExp('([^?=&]+)(=([^&]*))?', 'g'), ($0, $1, $2, $3) => {
+  str.replace(new RegExp("([^?=&]+)(=([^&]*))?", "g"), ($0, $1, $2, $3) => {
     objURL[$1] = $3;
   });
   return objURL;
@@ -137,9 +137,9 @@ export function parseQueryString(str) {
  * @param {String} fileName
  * @param {String} type
  */
-export function downloadBlobFile(result, fileName, type = 'xls') {
+export function downloadBlobFile(result, fileName, type = "xls") {
   const blob = new Blob([result]);
-  const downloadElement = document.createElement('a');
+  const downloadElement = document.createElement("a");
   const href = window.URL.createObjectURL(blob); // 创建下载的链接
   downloadElement.href = href;
   downloadElement.download = `${fileName}.${type}`; // 下载后文件名
@@ -169,7 +169,7 @@ export function reverseNumber(number) {
  * 获取长度
  * @param {string}} string
  */
-export function getStringLen(string = '') {
+export function getStringLen(string = "") {
   let len = 0;
   for (let i = 0; i < string.length; i++) {
     if (string.charCodeAt(i) > 127 || string.charCodeAt(i) == 94) {
@@ -187,7 +187,7 @@ export function getStringLen(string = '') {
  * @param {*} decimal
  */
 export function decimalLimit(value, decimal = 2) {
-  const arr = value.split('.');
+  const arr = value.split(".");
   if (arr[1] && arr[1].length > decimal) {
     return true;
   }
@@ -198,9 +198,9 @@ export function decimalLimit(value, decimal = 2) {
  *获取uid
  */
 export function getUid() {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
     const r = (Math.random() * 16) | 0;
-    const v = c == 'x' ? r : (r & 0x3) | 0x8;
+    const v = c == "x" ? r : (r & 0x3) | 0x8;
     return v.toString(16);
   });
 }
@@ -210,15 +210,15 @@ export function getUid() {
 export function IsPC() {
   const userAgentInfo = navigator.userAgent;
   const Agents = [
-    'Android',
-    'iPhone',
-    'SymbianOS',
-    'Windows Phone',
-    'iPad',
-    'iPod',
-    'Mobile',
-    'Linux',
-    'linux',
+    "Android",
+    "iPhone",
+    "SymbianOS",
+    "Windows Phone",
+    "iPad",
+    "iPod",
+    "Mobile",
+    "Linux",
+    "linux",
   ];
   let flag = true;
   for (let v = 0; v < Agents.length; v++) {
@@ -234,7 +234,7 @@ export function IsPC() {
  */
 export const LS = {
   setItem(key, value) {
-    value = typeof value == 'string' ? value : JSON.stringify(value);
+    value = typeof value == "string" ? value : JSON.stringify(value);
     localStorage.setItem(key, value);
   },
   getItem(key) {
@@ -242,7 +242,7 @@ export const LS = {
     try {
       return JSON.parseJSON(value);
     } catch (e) {
-      return value || '';
+      return value || "";
     }
   },
   removeItem(key) {
